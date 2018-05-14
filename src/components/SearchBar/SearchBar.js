@@ -3,9 +3,9 @@ import './SearchBar.css';
 
 //Interacts with Yelp API
 const sortByOptions = {
-  'bestMatch': 'best_match',
-  'highestRated': 'rating',
-  'mostReviewed': 'review_count'
+  'Best Match': 'best_match',
+  'Highest Rated': 'rating',
+  'Most Reviewed': 'review_count'
 };
 
 
@@ -24,7 +24,7 @@ class SearchBar extends React.Component  {
       <div className="SearchBar">
         <div className="SearchBar-sort-options">
           <ul>
-            <li>{renderSortByOptions}</li>
+            {this.renderSortByOptions()}
           </ul>
         </div>
         <div className="SearchBar-fields">
