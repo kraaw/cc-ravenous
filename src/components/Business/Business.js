@@ -1,5 +1,5 @@
 import React from 'react';
-import './Busines.css';
+import './Business.css';
 
 /*
 BUSINESS INFORMATION
@@ -48,4 +48,4 @@ class Business extends React.Component {
   }
 };
 
-export default business;
+export default Business;
