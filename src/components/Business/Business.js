@@ -2,7 +2,7 @@ import React from 'react';
 import './Business.css';
 
 
-//Component: Business (HARDCODE!)
+//Component: Business
 class Business extends React.Component {
   render() {
     return (
@@ -10,7 +10,7 @@ class Business extends React.Component {
         <div className="image-container">
           <img
             src={this.props.business.imageSrc}
-            alt='pizza'/>
+            alt=''/>
         </div>
         <h2>{this.props.business.name}</h2>
         <div className="Business-information">

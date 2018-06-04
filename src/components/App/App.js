@@ -12,15 +12,18 @@ class App extends Component {
 
     this.state = {
       businesses: []
-    }
+    };
+    
     this.searchYelp = this.searchYelp.bind(this);
   }
+
   //Simulate the "let's go" button
   searchYelp(term, location, sortBy) {
     Yelp.search(term,location,sortBy).then(businesses => {
       this.setState({businesses: businesses});
     })
   }
+
   render() {
     return (
       <div className="App">
