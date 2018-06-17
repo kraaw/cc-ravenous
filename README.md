@@ -1,6 +1,6 @@
 https://letsrave.surge.sh
 
-#RAVENOUS
+# RAVENOUS
 
 A react webapp integrated with the Yelp API to search for the best local restaurants.
 Visit the link above to learn more.
