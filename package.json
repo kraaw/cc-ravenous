@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.12.5",
-    "react": "^16.13.1",
+    "ajv": "^6.12.6",
+    "react": "^16.14.0",
     "react-dev-utils": "^10.2.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3",
-    "whatwg-fetch": "^3.4.1"
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.4.4",
+    "whatwg-fetch": "^3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
